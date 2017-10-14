@@ -13,8 +13,8 @@ How to deploy on heroku
 - Hook up mLabs (find this in Resources tab, choose the Sandbox option) 
 - Navigate to config vars (in Settings tab) 
 - Copy the MONGODB_URI url that is created by mLabs and paste this into another config var, which you will call MONGO_URI
-- Add all your other config vars from your env file on the backend, including SECRET, AWS_BUCKET, AWS other keys, CORS_ORIGIN. You don't need PORT.
-- Set API_URL var and CORS_ORIGIN to the url of the front end (do not include the trailing slash) 
+- Add all your other config vars from your env file on the backend, including SECRET, AWS_BUCKET, AWS other keys, CORS_ORIGINS. You don't need PORT.
+- Set API_URL var and CORS_ORIGINS to the url of the front end (do not include the trailing slash) 
 - Deploy master branch
 
 # Front End
